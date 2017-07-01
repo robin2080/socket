@@ -14,7 +14,7 @@ public class Server {
             Properties prop = new Properties();
             FileInputStream input;
 			try {
-				input = new FileInputStream("E:/workspace/socketserver/conf/init.properties");
+				input = new FileInputStream("E:/gitproject/socket/socketserver/conf/init.properties");
 		        prop.load(input);
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block

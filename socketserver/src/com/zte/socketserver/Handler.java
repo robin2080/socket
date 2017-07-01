@@ -19,7 +19,7 @@ public class Handler implements Runnable {
 			byte[] body = new byte[2048];
 			while(true){
 				int len = in.read(body); 
-			    System.out.println("--------------------------response data---------------------------------");
+			    System.out.println("--------------------------response data---------------------111------------");
 				System.out.println("+++++++++++"+len);
 				OutputStream out = socket.getOutputStream();
 				if(len > msgLen && Server.response != null){
