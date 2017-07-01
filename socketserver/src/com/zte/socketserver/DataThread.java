@@ -20,7 +20,7 @@ public class DataThread implements Runnable{
 			    Socket socket = dataServer.accept();
 			    InputStream input= socket.getInputStream();
 			    Server.response = transInputstream(input);	
-			    System.out.println("---------------------set response-----------1166------------------");
+			    System.out.println("---------------------set response------------11666-----------------");
 			    System.out.println(Server.byte2HexStr(Server.response,true));
 				OutputStream out = socket.getOutputStream();
 				out.write(Server.response);
